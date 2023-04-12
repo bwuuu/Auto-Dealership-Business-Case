@@ -22,11 +22,5 @@ with col5:
     nc_sales_y5 = st.number_input("5th Year NC Sales Volume", step = 1)
     uc_sales_y5 = st.number_input("5th Year UC Sales Volume", step = 1)
 
-col6, col7 = st.columns(2)
-with col6:
-    nc_sales_y1 = st.number_input("1st Year NC Sales Volume", step = 1)
-    uc_sales_y1 = st.number_input("1st Year UC Sales Volume", step = 1)
-with col7:
-    nc_sales_y2 = st.number_input("2nd Year NC Sales Volume", step = 1)
-    uc_sales_y2 = st.number_input("2nd Year UC Sales Volume", step = 1)
+st.write("blah")
 
