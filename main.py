@@ -2,6 +2,7 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 
+st.set_page_config(page_title=("Business Case"), layout="wide")
 st.title("Sales Volume Assumption")
 col1, col2, col3, col4, col5 = st.columns(5)
 
