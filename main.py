@@ -6,7 +6,7 @@ st.title("Sales Volume Assumption")
 col1, col2, col3, col4, col5 = st.columns(5)
 
 with col1:
-    nc_sales_y1 = st.number_input("1st Year NC Sales Volume", format=(%i))
+    nc_sales_y1 = st.number_input("1st Year NC Sales Volume", format=("%i"))
     uc_sales_y1 = st.number_input("1st Year UC Sales Volume")
 with col2:
     nc_sales_y2 = st.number_input("2nd Year NC Sales Volume")
